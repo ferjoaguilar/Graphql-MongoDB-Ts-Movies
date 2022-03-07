@@ -1,0 +1,17 @@
+type Query {
+  getUsers: [Users]
+  getMovies: [Movies]
+}
+
+type Users {
+  name: String
+  lastName: String
+  email: String
+  password: String
+}
+
+type Movies {
+  name: String
+  category: String
+  age: Int
+}
