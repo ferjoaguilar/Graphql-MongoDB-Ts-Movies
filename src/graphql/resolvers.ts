@@ -8,9 +8,9 @@ export const resolvers = {
         password: 'abc12345',
       },
       {
-        name: 'Madeleyne Melissa',
-        lastName: 'Henriquez Cañada',
-        email: 'maddy@gmail.com',
+        name: 'Fernando Jose',
+        lastName: 'Aguilar Rivas',
+        email: 'ferrivas127@gmail.com',
         password: 'abc12345',
       },
     ],
