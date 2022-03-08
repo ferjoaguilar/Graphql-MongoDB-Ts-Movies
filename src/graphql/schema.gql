@@ -1,17 +1,29 @@
 type Query {
-  getUsers: [Users]
+  getUsers:[Users] 
   getMovies: [Movies]
+}
+
+type Mutation {
+  addUser(input: UserInput!):String
 }
 
 type Users {
   name: String
-  lastName: String
+  lastname: String
   email: String
   password: String
 }
+
 
 type Movies {
   name: String
   category: String
   age: Int
+}
+
+input UserInput{
+  name: String!
+  lastname: String!
+  email: String!
+  password: String!
 }
